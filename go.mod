@@ -1,4 +1,4 @@
-module github.com/CiscoDevNet/terraform-provider-ciscoasa
+module github.com/schubergphilis/terraform-provider-ciscoasa
 
 go 1.16
 
