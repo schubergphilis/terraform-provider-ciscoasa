@@ -1,4 +1,10 @@
-## 1.3.1 (October 17th, 2023)
+## 1.3.2 (February 1, 2024)
+
+BUGFIXES
+
+- Recreate `resource_ciscoasa_nat` when changing fields that don't support update ([#10](https://github.com/schubergphilis/terraform-provider-ciscoasa/pull/3)):
+
+## 1.3.1 (October 17, 2023)
 
 BUGFIXES
 
@@ -8,7 +14,7 @@ BUGFIXES
   - `translated_source_kind`
   - `translated_source_value`
 
-## 1.3.0 (October 8th, 2021)
+## 1.3.0 (October 8, 2021)
 
 - Added support for new features on ASA
   - Network Object
@@ -27,7 +33,7 @@ BUGFIXES
   - Static Route
   - Time Range Objects
 
-## 1.2.3 (July 28th, 2021)
+## 1.2.3 (July 28, 2021)
 
 FEATURES
 
