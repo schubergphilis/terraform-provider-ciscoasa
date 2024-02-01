@@ -59,12 +59,14 @@ func resourceCiscoASANat() *schema.Resource {
 					"objectRef#NetworkObjGroup",
 				}, false),
 				Default: "AnyIPAddress",
+				ForceNew: true,
 			},
 
 			"original_source_value": {
 				Type:     schema.TypeString,
 				Optional: true,
 				Default:  "any",
+				ForceNew: true,
 			},
 
 			"original_destination_kind": {
@@ -82,12 +84,14 @@ func resourceCiscoASANat() *schema.Resource {
 					"objectRef#NetworkObjGroup",
 				}, false),
 				Default: "AnyIPAddress",
+				ForceNew: true,
 			},
 
 			"original_destination_value": {
 				Type:     schema.TypeString,
 				Optional: true,
 				Default:  "any",
+				ForceNew: true,
 			},
 
 			"original_service_kind": {
@@ -107,6 +111,7 @@ func resourceCiscoASANat() *schema.Resource {
 				Type:     schema.TypeString,
 				Optional: true,
 				Default:  "any",
+				ForceNew: true,
 			},
 
 			"translated_source_kind": {
