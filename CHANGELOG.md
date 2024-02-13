@@ -1,3 +1,9 @@
+## 1.4.0 (February 13, 2024)
+
+FEATURES
+
+- Added support for interfaceIP based NAT rules in `ciscoasa_nat` resource ([#4](https://github.com/schubergphilis/terraform-provider-ciscoasa/pull/4))
+
 ## 1.3.2 (February 1, 2024)
 
 BUGFIXES
