@@ -124,6 +124,7 @@ func resourceCiscoASANat() *schema.Resource {
 					"IPv6Network",
 					"IPv4Address",
 					"IPv6Address",
+					"interfaceIP",
 					"objectRef#NetworkObj",
 					"objectRef#NetworkObjGroup",
 				}, false),
