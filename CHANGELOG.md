@@ -1,3 +1,9 @@
+## 1.4.1 (March 25, 2024)
+
+BUGFIXES
+
+- Don't return error on rule retrieval so rule gets deleted from state if it doesn't exist
+
 ## 1.4.0 (February 13, 2024)
 
 FEATURES

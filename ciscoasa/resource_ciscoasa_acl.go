@@ -172,7 +172,7 @@ func resourceCiscoASAACLRead(d *schema.ResourceData, meta interface{}) error {
 		if strings.Contains(err.Error(), "RESOURCE-NOT-FOUND") {
 			log.Printf("[DEBUG] ACL %s no longer exists", d.Id())
 			d.SetId("")
-			return err
+			return nil
 		}
 
 		return fmt.Errorf("Error reading ACL %s rules: %v", d.Id(), err)

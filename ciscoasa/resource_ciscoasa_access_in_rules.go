@@ -176,7 +176,7 @@ func resourceCiscoASAAccessInRulesRead(d *schema.ResourceData, meta interface{})
 		if strings.Contains(err.Error(), "RESOURCE-NOT-FOUND") {
 			log.Printf("[DEBUG] Rule %s no longer exists", d.Id())
 			d.SetId("")
-			return err
+			return nil
 		}
 
 		return fmt.Errorf("Error reading interface %s rules: %v", d.Id(), err)
