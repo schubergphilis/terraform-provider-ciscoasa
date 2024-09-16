@@ -29,6 +29,8 @@ import (
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/asaskevich/govalidator"
 )
 
 // Predefine standard errors
@@ -260,6 +262,10 @@ func kindFromValue(value string) (string, error) {
 		if addr.To16() != nil {
 			return "IPv6Address", nil
 		}
+	}
+
+	if govalidator.IsDNSName(value) {
+		return "IPv4FQDN", nil
 	}
 
 	return "", fmt.Errorf("failed to infer kind from value %q", value)

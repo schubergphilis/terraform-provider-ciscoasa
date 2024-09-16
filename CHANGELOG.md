@@ -1,3 +1,9 @@
+## 1.5.0 (September 16, 2024)
+
+FEATURES
+
+- Move to forked schubergphilis/go-ciscoasa library to support FQDN based address objects
+
 ## 1.4.1 (March 25, 2024)
 
 BUGFIXES
