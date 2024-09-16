@@ -3,6 +3,7 @@
 FEATURES
 
 - Move to forked schubergphilis/go-ciscoasa library to support FQDN based address objects
+- Remove vendor directory
 
 ## 1.4.1 (March 25, 2024)
 
