@@ -58,7 +58,7 @@ func resourceCiscoASANat() *schema.Resource {
 					"objectRef#NetworkObj",
 					"objectRef#NetworkObjGroup",
 				}, false),
-				Default: "AnyIPAddress",
+				Default:  "AnyIPAddress",
 				ForceNew: true,
 			},
 
@@ -83,7 +83,7 @@ func resourceCiscoASANat() *schema.Resource {
 					"objectRef#NetworkObj",
 					"objectRef#NetworkObjGroup",
 				}, false),
-				Default: "AnyIPAddress",
+				Default:  "AnyIPAddress",
 				ForceNew: true,
 			},
 
@@ -287,6 +287,7 @@ func resourceCiscoASANat() *schema.Resource {
 				Optional:     true,
 				Computed:     true,
 				ValidateFunc: validation.IntAtLeast(1),
+				ForceNew:     true,
 			},
 
 			"last_updated": {

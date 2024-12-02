@@ -1,3 +1,10 @@
+## 1.5.1 (December 2, 2024)
+
+BUGFIXES
+
+- ASA API executes delete/create on order update which could cause race condition (rule ID deleted before next rule with this ID gets processed)
+  This forces Terraform to handle the delete/create following normal Terraform order
+
 ## 1.5.0 (September 16, 2024)
 
 FEATURES
