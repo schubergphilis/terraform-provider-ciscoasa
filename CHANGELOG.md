@@ -1,4 +1,4 @@
-## 1.5.2 (Januari 30, 2025)
+## 1.5.2 (January 30, 2025)
 
 BUGFIXES
 
