@@ -7,4 +7,4 @@ require (
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.7.0
 )
 
-replace github.com/CiscoDevNet/go-ciscoasa => github.com/schubergphilis/go-ciscoasa v0.3.0
+replace github.com/CiscoDevNet/go-ciscoasa => github.com/schubergphilis/go-ciscoasa v0.3.1
