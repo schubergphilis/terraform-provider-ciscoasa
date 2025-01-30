@@ -1,3 +1,9 @@
+## 1.5.2 (Januari 30, 2025)
+
+BUGFIXES
+
+- prevent FQDN with - to be detected as IP range ([go-ciscoasa](https://github.com/schubergphilis/go-ciscoasa/pull/3))
+
 ## 1.5.1 (December 2, 2024)
 
 BUGFIXES
